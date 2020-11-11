@@ -4,13 +4,12 @@
 
 org 100h
 
-MOV AX, 14; add your code here
-MOV BX, 15
+MOV AX, 1
+MOV BX, 5
+MOV CX, 5
 
-ADD AX, BX
+
+ADD BX, CX
+ADD AX ,BX
 
 ret
-
-
-
-
